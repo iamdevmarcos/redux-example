@@ -9,3 +9,14 @@ export const Box = styled.div`
 `
 
 export const Heading = styled.h1``
+
+export const List = styled.ul``
+
+type ListItemProps = {
+  done: boolean
+}
+
+export const ListItem = styled.li<ListItemProps>`
+  text-decoration: ${({ done })=> done ? 'line-through' : 'normal'};
+  cursor: pointer;
+`
