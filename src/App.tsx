@@ -6,7 +6,7 @@ import GithubCorner from 'react-github-corner'
 
 const App = () => (
   <Wrapper>
-    <ThemeExample />
+    {/* <ThemeExample /> */}
     <TodoExample />
 
     <GithubCorner

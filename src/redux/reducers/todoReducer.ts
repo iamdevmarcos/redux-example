@@ -32,7 +32,7 @@ const slice = createSlice({
   initialState,
   reducers: {
     insertTask: (state, action) => {
-      return state
+      state.push(action.payload)
     },
     toggleStatus: (state, action) => {
       for(let i in state) {
