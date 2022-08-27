@@ -6,7 +6,7 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
     min-height: 100vh;
     font-family: 'Arial', sans-serif;
-    transition: all ease-in-out 0.4s;
+    transition: background ease-in-out 0.3s;
   }
 `;
  
