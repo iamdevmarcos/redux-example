@@ -7,6 +7,7 @@ declare module 'styled-components' {
     mode: 'light' | 'dark'
     colors: {
       background: string
+      textColor: string
     }
   }
 }

@@ -3,13 +3,15 @@ import { DefaultTheme } from "styled-components"
 export const darkTheme: DefaultTheme = {
   mode: 'dark',
   colors: {
-    background: 'yellow'
+    background: '#0B0C0F',
+    textColor: '#eee'
   }
 }
 
 export const lightTheme: DefaultTheme = {
   mode: 'light',
   colors: {
-    background: 'blue'
+    background: '#eee',
+    textColor: '#0B0C0F'
   }
 }

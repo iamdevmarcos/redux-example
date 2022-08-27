@@ -7,7 +7,7 @@ type ThemeState = {
   theme: DefaultTheme
 }
 
-const initialState = { theme: lightTheme } as ThemeState
+const initialState = { theme: darkTheme } as ThemeState
 
 const slice = createSlice({
   name: 'theme',
