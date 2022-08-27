@@ -15,11 +15,6 @@ export const LeftSide = styled.div`
   `}
 `
 
-export const RightSide = styled.div`
-  flex: 1;
-  min-height: 100vh;
-`
-
 export const Heading = styled.h1``
 
 export const List = styled.ul``
@@ -40,8 +35,47 @@ export const ListItem = styled.li<ListItemProps>`
   }
 `
 
-export const FormArea = styled.div``
+export const RightSide = styled.div`
+  flex: 1;
+  min-height: 100vh;
 
-export const Input = styled.input``
+  background:red;
 
-export const Button = styled.button``
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`
+
+export const FormArea = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  background-color: blue;
+`
+
+export const Input = styled.input`
+  width: 100%;
+  border: 0;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+
+`
+
+export const Button = styled.button`
+  width: 100%;
+  padding: 10px 20px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  &:hover {
+    opacity: 0.7;    
+  }
+`

@@ -59,8 +59,13 @@ const TodoExample = () => {
         <S.Heading>Adicionar nova tarefa</S.Heading>
 
         <S.FormArea>
-          <S.Input value={taskName} onChange={e => setTaskName(e.target.value)} />
           <S.Input
+            placeholder='Digite o titulo da tarefa'
+            value={taskName}
+            onChange={e => setTaskName(e.target.value)}  
+          />
+          <S.Input
+            placeholder='Digite a descricao da tarefa'
             value={taskDescription}
             onChange={e => setTaskDescription(e.target.value)}
           />
