@@ -6,24 +6,6 @@ const initialState = [
     title: 'Apresentacao A-Team',
     description: 'Criar slides e mini-projeto para apresentacao',
     done: false
-  },
-  {
-    id: 2,
-    title: '1',
-    description: 'fds efds',
-    done: false
-  },
-  {
-    id: 3,
-    title: '2',
-    description: 'Criar slides e minifsd para apresentacao',
-    done: false
-  },
-  {
-    id: 4,
-    title: '5',
-    description: 'Criar slides e mini-projeto para apresentacao',
-    done: false
   }
 ]
 
