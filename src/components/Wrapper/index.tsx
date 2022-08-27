@@ -1,11 +1,11 @@
 import { useAppSelector } from "redux/hooks/useAppSelector"
 import { ThemeProvider } from "styled-components"
 
-type ThemeWrapperProps = {
+type WrapperProps = {
   children: React.ReactNode
 }
 
-const ThemeWrapper = ({ children }: ThemeWrapperProps) => {
+const Wrapper = ({ children }: WrapperProps) => {
   const { theme } = useAppSelector((state) => state.theme)
 
   return (
@@ -13,4 +13,4 @@ const ThemeWrapper = ({ children }: ThemeWrapperProps) => {
   )
 }
 
-export default ThemeWrapper
+export default Wrapper
