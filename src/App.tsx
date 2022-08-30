@@ -1,13 +1,10 @@
 import Wrapper from 'components/Wrapper'
-import ThemeExample from 'examples/ThemeExample'
-import TodoExample from 'examples/TodoExample'
-
 import GithubCorner from 'react-github-corner'
+import MainRoutes from 'Routes'
 
 const App = () => (
   <Wrapper>
-    <ThemeExample />
-    {/* <TodoExample /> */}
+    <MainRoutes />
 
     <GithubCorner
       href="https://github.com/iamdevmarcos/redux-example"

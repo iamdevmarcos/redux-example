@@ -4,6 +4,7 @@ import App from './App'
 
 import { Provider } from 'react-redux'
 import { store } from './redux/store'
+import { BrowserRouter } from 'react-router-dom'
 
 import GlobalStyles from 'styles/globalStyles'
 
@@ -12,7 +13,9 @@ const root = ReactDOM.createRoot(
 )
 root.render(
   <Provider store={store}>
-    <GlobalStyles />
-    <App />
+    <BrowserRouter>
+      <GlobalStyles />
+      <App />
+    </BrowserRouter>
   </Provider>
 )
