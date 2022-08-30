@@ -11,10 +11,18 @@ const ThemeExample = () => {
   const handleSwitchTheme = () => dispatch(switchTheme()) 
 
   return (
-    <S.Box>
-      <S.Heading>Tema Atual: {theme.mode} <button onClick={handleSwitchTheme}>Mudar Tema</button></S.Heading>
-      
-    </S.Box>
+    <S.Wrapper>
+      <S.Box>
+        <S.Heading>Tema Atual: {theme.mode}</S.Heading><br/>
+        <S.Text>Apresentacao A-Team</S.Text>
+        <S.InfoBox>
+          <S.Text>Tema: Redux</S.Text>
+        </S.InfoBox>
+
+        <S.Button onClick={handleSwitchTheme}>Mudar Tema</S.Button>
+      </S.Box>
+    </S.Wrapper>
+    
   )
 }
 

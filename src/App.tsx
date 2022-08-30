@@ -6,8 +6,8 @@ import GithubCorner from 'react-github-corner'
 
 const App = () => (
   <Wrapper>
-    {/* <ThemeExample /> */}
-    <TodoExample />
+    <ThemeExample />
+    {/* <TodoExample /> */}
 
     <GithubCorner
       href="https://github.com/iamdevmarcos/redux-example"
