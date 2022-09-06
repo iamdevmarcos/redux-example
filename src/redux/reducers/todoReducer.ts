@@ -9,7 +9,7 @@ const initialState = [
   }
 ]
 
-const slice = createSlice({
+const todoSlice = createSlice({
   name: 'todo',
   initialState,
   reducers: {
@@ -26,5 +26,5 @@ const slice = createSlice({
   }
 })
 
-export const { insertTask, toggleStatus } = slice.actions
-export default slice.reducer
+export const { insertTask, toggleStatus } = todoSlice.actions
+export default todoSlice.reducer
