@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="q7yzLcji8X_oZluLJt9G" name="Props Drilling">
-        <mxGraphModel dx="1075" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1073" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -53,7 +53,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="State Management" id="8t_1OHwblr8OMsOQNYnS">
-        <mxGraphModel dx="1075" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1287" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="vyCbU-vuIrlbdeBc6m6Y-0"/>
                 <mxCell id="vyCbU-vuIrlbdeBc6m6Y-1" parent="vyCbU-vuIrlbdeBc6m6Y-0"/>
@@ -96,7 +96,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="All" id="xEl1tPG7Ef54Eu7crx2p">
-        <mxGraphModel dx="1075" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1119" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="wSnOHmd4NZO43CEivaGH-0"/>
                 <mxCell id="wSnOHmd4NZO43CEivaGH-1" parent="wSnOHmd4NZO43CEivaGH-0"/>
